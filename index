@@ -1,0 +1,236 @@
+<?php
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title> Life HACKS </title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Kaushan+Script&family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<nav class="bar black">
+<style>
+header {
+	height: 80px;
+	background: rgba(0,0,0,.7);
+	width: 103%;
+	z-index: 10;
+	position: fixed;
+	top: -10px;
+	left: -2px
+}
+.img5{
+	width: 47px;
+	height: 45px;
+	border-radius: 10px;
+	position: absolute;
+	left: calc(10% - 10px);
+	top: 25px;
+}
+.img6{
+	width: 45px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: calc(83.5% - 10px);
+	top: 25px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+body {
+	background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwsL?ver=21d5");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	position: fixed;
+}
+
+h1 {color:rgb(253,254,254); font-size:70px; font-family:Georgia;}
+nav {color:white; font-size:20px; font-family:Georgia;}
+
+footer {
+	height: 40px;
+	background: rgba(0,0,0,9);
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 96%;
+	left: 0px
+}
+footer p{
+  text-align: center;
+  font-size: 15px;
+  font-family:'Pacifico', cursive;
+  color: #666;
+  top: -14px;
+  position: relative;
+}
+</style>
+<header>
+  <img src="img5.png" class="img5"/>
+   <img src="avat.png" class="img6"/>
+  <div class="text">
+<h4> Life Hacks </h4>
+</div>  
+<ul class="btn">
+ <li><a href="Website.php" class="button">Home</a></li>
+ <ul class="btn2">
+ <li><a href="login.php" class="button">Login</a></li>
+  <ul class="btn3">
+  <li><a href="Profile.html" class="button">Profile</a></li>
+  <ul class="btn4">
+  <li><a href="Signup.php" class="button">Signup</a></li>
+ </header>
+ <div class="posi">
+         <img src="image1.jpg" width="300" height="200" />
+		 </div>
+ <div class="posi2">
+         <img src="image2.jpg" width="300" height="200" />
+		 </div>
+ <div class="posi3">
+        <img src="image3.jpg" width="300" height="198" />
+		 </div>
+ <div class="posi4">
+        <img src="image4.jpg" width="300" height="200" />
+		 </div>
+  <style>
+  .center h1{
+  position: fixed;
+  font-family: 'Pacifico', cursive;
+  }
+  .posi{
+  position: relative;
+  top: 370px;
+  left: 9px;
+ }
+   .posi2{
+  position: relative;
+  top: 166px;
+  left: 350px;
+ }
+    .posi3{
+  position: relative;
+  top: -39px;
+  left: 700px;
+ }
+     .posi4{
+  position: relative;
+  top: -242px;
+  left: 1040px;
+ }
+  .text{
+	position: absolute;
+	left: calc(19% - 50px);
+	top: 1px;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}	
+  .btn{
+	border-radius: 60px;
+	position: absolute;
+	left: calc(29% - 50px);
+	top: -8px;
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+  .btn li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+	border: 0px solid #fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+.btn2{
+	border-radius: 60px;
+	position: absolute;
+	left: calc(500% - 20px);
+	top: -30px;
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.btn2 li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:'Kalam', cursive;
+	font-size: 20px;
+	border: 0px solid #fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+.btn3{
+	border-radius: 60px;
+	position: absolute;
+	left: calc(-400% - 10px);
+	top: -30px;
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.btn3 li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+	border: 0px solid #fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+.btn4{
+	border-radius: 80px;
+	position: absolute;
+	left: calc(520% - 10px);
+	top: -45px;
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.btn4 li a{
+	color: #fff;
+	text-decoration: none;
+	padding: -5px 50px;
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+	border: 0px solid #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+</style>
+</nav>
+</head>
+<body>
+<center> <h1 style="position:absolute;font-family: 'Pacifico', cursive;top:130px;left:120%;font-size:60px;text-decoration:none;display:inline-block;border: 3px solid #fff;width:209%;background-color:rgba(0,0,0,.6"> Life HACKS </h1> </center>
+	
+<footer>
+  <p>© 2022 Kim Arguelles</p>
+</footer>
+</body>
+</html>
